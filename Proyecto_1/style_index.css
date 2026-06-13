@@ -1,0 +1,183 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(
+        90deg, rgba(0,0,0,0.82) 0%, rgba(15,0,0,0.80) 50%,rgba(0,0,0,0.82) 100%),
+    url(https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQTI2QOCt7dLqs_PwpDTGlDQgtHMj5sOPjMk3ctOjQw7kpI4cSQVRJRbm45N9fQXva0N9hv5L81NPCbpoVqq3AJGOKht4n9Gny_vv0KBoHdo6XKpcNmvAyK1iBUPPrUCmRjcmSZ979KAt5aa_O0RHUfdB.jpg?r=fd9);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 30px;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 40pt;
+    color: #cc0000;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: #cc0000;
+    border-bottom: 2px solid #cc0000;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+.p1{
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+.UL{
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.LI{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    color: #cc0000;
+}
+p{
+    line-height: 1.6;
+    font-size: 16pt;
+    text-align: justify;
+}
+li{
+    font-size: 16pt;
+    justify-content: center;
+}
+img{
+    display: block;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+.Ce,
+.Mike,
+.Will,
+.Dustin,
+.Lucas{
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    margin: 15px;
+    background-color: rgba(20,20,20,0.9);
+    border: 1px solid #cc0000;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+    transition: transform 0.3s;
+}
+.Ce:hover,
+.Mike:hover,
+.Will:hover,
+.Dustin:hover,
+.Lucas:hover{
+    transform: translateY(-5px);
+}
+.Ce img,
+.Mike img,
+.Will img,
+.Dustin img,
+.Lucas img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 0;
+}
+.Ce div,
+.Mike div,
+.Will div,
+.Dustin div,
+.Lucas div{
+    padding: 15px;
+}
+.Ce h3,
+.Mike h3,
+.Will h3,
+.Dustin h3,
+.Lucas h3{
+    margin-top: 0;
+    color: #cc0000;
+    text-align: center;
+}
+ul img{
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto 25px auto;
+    border-radius: 10px;
+}
+div{
+    margin-bottom: 30px;
+}
+footer{
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    padding: 15px;
+    margin-top: 40px;
+    border-top: 2px solid #cc0000;
+}
+footer p{
+    text-align: center;
+}
+.tarjetas{
+    padding: 40px;
+    }
+.Curiosidades{
+    text-align: center;
+}
+.Curiosidades ul li{
+    list-style: none;
+    padding: 11px;
+}
+.queso{
+    text-align: center;
+}
+img:hover{
+    transform: scale(1.4, 1.4);
+    transition: 0.5s;
+}
+.cards{
+    justify-content: center;
+}
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+}
+.tarjetas > div {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+.tarjetas h2 {
+    width: 100%;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
